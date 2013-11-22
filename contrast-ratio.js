@@ -11,11 +11,11 @@ function $$(expr, con) {
 $$('[id]').forEach(function(element) { window[element.id] = element; });
 
 var messages = {
-	'semitransparent': 'The background is semi-transparent, so the contrast ratio cannot be precise. Depending on what’s going to be underneath, it could be any of the following:',
-	'fail': 'Fails WCAG 2.0 :-(',
-	'aa-large': 'Passes AA for large text (above 18pt or bold above 14pt)',
-	'aa': 'Passes AA level for any size text and AAA for large text (above 18pt or bold above 14pt)',
-	'aaa': 'Passes AAA level for any size text'
+	'semitransparent': 'Tło jest półprzezroczyste, zatem nie da się określić poziomu kontrastu precyzyjnie. W zależności od tego co znajduje się pod póprzezroczystym tłem, wynik może być następujący:',
+	'fail': 'Kontrast nie spełnia wytycznych WCAG 2.0 :-(',
+	'aa-large': 'Kontrast przechodzi na poziomie AA dla dużego tekstu (powyżej 18pt lub pogrubionego powyżej 14pt)',
+	'aa': 'Kontrast spełnia wytyczne na poziomie AA dla tekstów dowolnego rozmiaru i na poziomie AAA dla dużego tekstu (powyżej 18pt lub pogrubionego powyżej 14pt)',
+	'aaa': 'Kontrast spełnia wytyczne na poziomie AAA dla tekstów dowolnego rozmiaru.'
 };
 
 var canvas = document.createElement('canvas'),
